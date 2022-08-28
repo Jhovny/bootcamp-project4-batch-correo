@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: batch-correo
+  cloud:
+    config:
+      uri: http://localhost:8084
+      username: root
+      password: rHQPJeecA3YTdVkX
+
+  mail:
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: 'true'
+            required: 'true'
+          auth: 'true'
+          quitwait: 'false'
+    host: smtp.gmail.com
+    username: jfloresninaco@gmail.com
+    protocol: smtp
+    password: kanndczhrwbjpqqd
+    port: 587
